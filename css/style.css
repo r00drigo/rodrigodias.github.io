@@ -2,15 +2,31 @@ body {
   background-color: #023535;
 }
 h1 {
+  font-size: 5rem;
   color: #fff;
 }
-main {
-  width: 100vw;
+.text-light {
+  color: #fff;
+}
+
+header {
+  margin: 20px 40px 0px 40px;
+}
+.container {
+  margin: 0 60px;
+}
+.content-box {
+  width: 50%;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
 }
 .content {
   text-align: center;
@@ -32,4 +48,14 @@ main {
 }
 .btn2:hover {
   background-color: #c7ffed;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-60 {
+  margin-top: 80px;
 }
